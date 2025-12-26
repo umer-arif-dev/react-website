@@ -14,7 +14,7 @@ function Navbar() {
       <>
         <header className="bg-[#101828] p-[1rem] flex justify-between items-center pl-[1rem] pr-[1rem]">
           <div className="flex items-center gap-[0.5rem]">
-            <img src="/public/wheel.png" alt="wheel" className="w-[3rem]" />
+            <img src="/src/assets/wheel.png" alt="wheel" className="w-[3rem]" />
             <h1 className="text-white text-[2rem] font-bold hover:text-[#1f5ecc] hover:scale-105">
               E-Commerce
             </h1>
