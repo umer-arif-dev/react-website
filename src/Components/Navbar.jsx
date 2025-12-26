@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
 import ProductContext from "../context/ProductContext";
 import { RxHamburgerMenu } from "react-icons/rx";
+import wheel from "../assets/wheel.png";
 
 function Navbar() {
   const { cartCount, wishCount } = useContext(ProductContext);
@@ -14,8 +15,8 @@ function Navbar() {
       <>
         <header className="bg-[#101828] p-[1rem] flex justify-between items-center pl-[1rem] pr-[1rem]">
           <div className="flex items-center gap-[0.5rem]">
-            <img src="/src/assets/wheel.png" alt="wheel" className="w-[3rem]" />
-            <h1 className="text-white text-[2rem] font-bold hover:text-[#1f5ecc] hover:scale-105">
+          <img src={wheel} alt="wheel" className="w-[3rem]" />
+          <h1 className="text-white text-[2rem] font-bold hover:text-[#1f5ecc] hover:scale-105">
               E-Commerce
             </h1>
           </div>
